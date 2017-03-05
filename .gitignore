@@ -5,3 +5,6 @@ target
 .classpath
 .idea
 *.iml
+.gradle
+build
+local.properties
