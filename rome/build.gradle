@@ -5,7 +5,7 @@ group = "com.rometools"
 apply from: '../build.gradle'
 
 dependencies {
-    implementation project(':rome-utils')
+    implementation project(':rome/rome-utils')
     api 'org.jdom:jdom2:2.0.6'
     implementation 'org.slf4j:slf4j-api:1.7.16'
     testImplementation 'ch.qos.logback:logback-classic:1.1.3'

@@ -5,8 +5,8 @@ group = "com.rometools"
 apply from: '../build.gradle'
 
 dependencies {
-    implementation project(':rome')
-    implementation project(':rome-utils')
+    implementation project(':rome/rome')
+    implementation project(':rome/rome-utils')
     implementation 'org.slf4j:slf4j-api:1.7.16'
     implementation 'org.jdom:jdom2:2.0.6'
 
